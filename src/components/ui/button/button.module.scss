@@ -1,0 +1,40 @@
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    position: relative;
+    padding: .8em 2.1em;
+    margin-bottom: .75em;
+    margin-right: .25em;
+    font-size: 1em;
+    line-height: 1.2;
+    border: 0;
+    outline: 0;
+    border: 2px solid #007ced;
+    color: #222;
+    text-shadow: none;
+    background-color: #fff;
+    border-radius: 30px;
+    font-family: poppins, Helvetica, sans-serif;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, .22);
+}
+
+.btn-secondary {
+    border-color: #d5d5d5;
+    background-color: #fff;
+    box-shadow: 0 10px 10px -8px #d5d5d5;
+    color: #666;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #007ced ;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #666 ;
+}

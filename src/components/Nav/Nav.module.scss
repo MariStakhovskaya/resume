@@ -1,0 +1,21 @@
+.nav {
+    border: 1px solid #e91111;
+    font-size: 1.4rem;
+  
+    &__list {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 4.7rem;
+    }
+  
+    &__link {
+      color: #969696;
+      text-decoration: none;
+      transition: color 0.2s;
+  
+      &:hover {
+        color: #333;
+      }
+    }
+  }
