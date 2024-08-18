@@ -1,0 +1,16 @@
+.kontakts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px;
+    gap: 60px;
+    span {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+.kontakts__icon {
+    display: flex;
+}

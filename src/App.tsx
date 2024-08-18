@@ -6,6 +6,8 @@ import { Portfolio } from './components/Portfolio/Portfolio';
 import { Footer } from './components/Footer/Footer';
 import { Resume } from './components/Resume/Resume';
 import { Certificates } from './components/Certificates/Certificates';
+import { Skills } from './components/Skills/Skills';
+import { Kontakts } from './components/Kontacts/Kontakts';
 
 export function App() {
   return (
@@ -17,11 +19,11 @@ export function App() {
       <TitleBlock title={'Certificated'} />
       <Certificates />
       <TitleBlock title={'Skill'} />
-      <div>Skill</div>
+      <Skills />
       <TitleBlock title={'Portfolio'} />
       <Portfolio />
-      <TitleBlock title={'Kontact'} />
-      <div>Kontact</div>
+      <TitleBlock title={'Kontakt'} />
+      <Kontakts />
       <Footer />
     </div>
   );

@@ -1,0 +1,28 @@
+.resumeBlock {
+    display: flex;
+    padding: 60px 40px;
+}
+
+.resumeBlock__column {
+    flex: 0 0 50%;
+    max-width: 50%;
+   
+}
+
+.resumeBlock__item {
+    height: 16rem;
+    position: relative;
+    border-bottom:1px solid #f5f6f9;
+    padding: 25px 0px 20px 40px;
+}
+
+.resumeBlock__item ::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    background-color: #f5f6f9;
+    width: 2px;
+    left: 15px;
+    bottom: 5px;
+}
