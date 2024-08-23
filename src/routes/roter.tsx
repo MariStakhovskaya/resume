@@ -5,7 +5,7 @@ import Error404 from '../components/Error404/Error404';
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/resume/',
     element: <App />,
     errorElement: <Error404 />,
   },
