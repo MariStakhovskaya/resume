@@ -8,7 +8,7 @@ function About() {
     <div className={style.main}>
       <div className={style.main__about}>
         <div className={style.about__photo}>
-          <CircleImage src={myPhoto} />
+          <CircleImage src={myPhoto} alt="icon" />
         </div>
         <div className={style.about__description}>
           <h4>Frontend Entwicklerin</h4>

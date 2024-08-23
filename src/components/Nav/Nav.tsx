@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import style from './Nav.module.scss';
 
 function Nav() {
@@ -5,34 +6,66 @@ function Nav() {
     <nav className={style.nav}>
       <ul className={style.nav__list}>
         <li className={style.nav__item}>
-          <a href="#about" className={style.nav__link}>
+          {/* <a href="#about" className={style.nav__link}> */}
+          <Link
+            to="section1"
+            smooth={true}
+            duration={500}
+            className={style.nav__link}
+          >
             About Me
-          </a>
+          </Link>
+          {/* </a> */}
         </li>
         <li className={style.nav__item}>
-          <a href="#skills" className={style.nav__link}>
+          <Link
+            to="section2"
+            smooth={true}
+            duration={500}
+            className={style.nav__link}
+          >
+            Resume
+          </Link>
+        </li>
+        <li className={style.nav__item}>
+          <Link
+            to="section3"
+            smooth={true}
+            duration={500}
+            className={style.nav__link}
+          >
+            Certificated
+          </Link>
+        </li>
+        <li className={style.nav__item}>
+          <Link
+            to="section4"
+            smooth={true}
+            duration={500}
+            className={style.nav__link}
+          >
             Skills
-          </a>
+          </Link>
         </li>
         <li className={style.nav__item}>
-          <a href="#certified" className={style.nav__link}>
-            Certified
-          </a>
-        </li>
-        <li className={style.nav__item}>
-          <a href="#education" className={style.nav__link}>
-            Education
-          </a>
-        </li>
-        <li className={style.nav__item}>
-          <a href="#portfolio" className={style.nav__link}>
+          <Link
+            to="section5"
+            smooth={true}
+            duration={500}
+            className={style.nav__link}
+          >
             Portfolio
-          </a>
+          </Link>
         </li>
         <li className={style.nav__item}>
-          <a href="#contacts" className={style.nav__link}>
-            Contacts
-          </a>
+          <Link
+            to="section6"
+            smooth={true}
+            duration={500}
+            className={style.nav__link}
+          >
+            Kontakts
+          </Link>
         </li>
       </ul>
     </nav>

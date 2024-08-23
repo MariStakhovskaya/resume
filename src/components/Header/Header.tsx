@@ -7,6 +7,7 @@ function Header() {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
+    console.log(t);
   };
   return (
     <header className={style.header}>

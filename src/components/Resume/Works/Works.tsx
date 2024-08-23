@@ -5,7 +5,7 @@ type EducationPropsType = {
   education: EducationType;
 };
 
-export const Work = (props: EducationPropsType) => {
+export const Works = (props: EducationPropsType) => {
   return (
     <div className={style.workBlock}>
       <div>
