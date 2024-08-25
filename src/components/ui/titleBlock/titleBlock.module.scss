@@ -1,14 +1,12 @@
 .titleBlock {
-  
-    margin: 50px 80px;
-    text-align: left;
+    margin: 5rem 8rem;
 }
 
 .titleBlock h2{
-    display: inline-block;
     position: relative;
     font-size: 3.2rem;
-    margin: 0 0 30px;
+    font-weight: var(--font-weight-semibold);
+    color: var( --color-dark-900);
     z-index: 1;
     padding-bottom: 7px;
 }

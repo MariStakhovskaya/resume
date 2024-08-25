@@ -1,11 +1,11 @@
 .header {
-    height: 5rem;
+    height: 13rem;
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 4.7rem;
-    margin: 4rem 0;
+    padding: 0 5rem;
   
     &__logoM {
       display: inline-flex;
@@ -27,4 +27,41 @@
     &__logoFamily {
       font-weight: var(--font-weight-medium);
     }
+  }
+
+  .language {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .language button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .language button:focus {
+    outline: none; 
+  }
+  
+  .language button::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var( --color-accent-500); 
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .language button:hover::after {
+    transform: scaleX(1);
   }

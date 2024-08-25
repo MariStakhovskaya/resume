@@ -1,5 +1,5 @@
 .nav {
-    border: 1px solid #e91111;
+
     font-size: 1.4rem;
   
     &__list {
@@ -13,6 +13,7 @@
       color: #969696;
       text-decoration: none;
       transition: color 0.2s;
+      cursor: pointer;
   
       &:hover {
         color: #333;

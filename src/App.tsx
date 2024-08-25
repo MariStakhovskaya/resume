@@ -35,7 +35,7 @@ export function App() {
     const handleMouseMove = () => {
       // При каждом движении мыши обновляем случайные смещения
       targetOffsets.current = targetOffsets.current.map(() => ({
-        offsetX: Math.random() * 20 - 10, // Случайное смещение в пределах [-10, 10] пикселей
+        offsetX: Math.random() * 20 - 10,
         offsetY: Math.random() * 20 - 10,
       }));
     };
@@ -45,10 +45,10 @@ export function App() {
         prevOffsets.map((offset, index) => ({
           offsetX:
             offset.offsetX +
-            (targetOffsets.current[index].offsetX - offset.offsetX) * 0.05, // Медленная интерполяция (чем меньше коэффициент, тем медленнее)
+            (targetOffsets.current[index].offsetX - offset.offsetX) * 0.02,
           offsetY:
             offset.offsetY +
-            (targetOffsets.current[index].offsetY - offset.offsetY) * 0.05,
+            (targetOffsets.current[index].offsetY - offset.offsetY) * 0.02,
         })),
       );
       requestAnimationFrame(animate); // Рекурсивная анимация
@@ -86,14 +86,13 @@ export function App() {
           <TitleBlock title={'Resume'} />
           <Resume />
         </Element>
-        <Element name="section3" className="section">
-          <TitleBlock title={'Certificated'} />
-          <Certificates />
-        </Element>
-        <Element name="section4" className="section">
-          <TitleBlock title={'Skills'} />
-          <Skills />
-        </Element>
+
+        <TitleBlock title={'Certificated'} />
+        <Certificates />
+
+        <TitleBlock title={'Skills'} />
+        <Skills />
+
         <Element name="section5" className="section">
           <TitleBlock title={'Portfolio'} />
           <Portfolio />

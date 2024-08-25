@@ -15,13 +15,14 @@ function Header() {
         <span className={style.header__logoM}>M</span>
         <span className={style.header__logoName}>Maria</span> Stachovski
       </div>
-      <div>
-        <button onClick={() => changeLanguage('en')}>En</button>
-        <button onClick={() => changeLanguage('ru')}>Ru</button>
-        <button onClick={() => changeLanguage('de')}>De</button>
+      <div className={style.language}>
+        <div>
+          <button onClick={() => changeLanguage('en')}>En</button>
+          <button onClick={() => changeLanguage('ru')}>Ru</button>
+          <button onClick={() => changeLanguage('de')}>De</button>
+        </div>
+        <Nav />
       </div>
-
-      <Nav />
     </header>
   );
 }
