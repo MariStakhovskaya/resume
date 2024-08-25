@@ -7,7 +7,7 @@ type TitleBlockType = {
 export const TitleBlock = ({ title }: TitleBlockType) => {
   return (
     <div className={style.titleBlock}>
-      <h2>{title}</h2>
+      <h2 className={style.heading}>{title}</h2>
     </div>
   );
 };

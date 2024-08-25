@@ -8,7 +8,7 @@
     line-height: 1.2;
     border: 0;
     outline: 0;
-    border: 2px solid #007ced;
+    border: 2px solid var(--color-accent-500);
     color: #222;
     text-shadow: none;
     background-color: #fff;
@@ -26,15 +26,15 @@
     border-color: #d5d5d5;
     background-color: #fff;
     box-shadow: 0 10px 10px -8px #d5d5d5;
-    color: #666;
+    color: var(--color-dark-500);
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #007ced ;
+    background-color: var(--color-accent-500) ;
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #666 ;
+    background-color: var(--color-dark-500) ;
 }
