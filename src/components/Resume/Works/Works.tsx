@@ -15,7 +15,9 @@ export const Works = (props: EducationPropsType) => {
         </span>
       </div>
       <h5 className={style.workBlock__title}>{props.education.title}</h5>
-      <div>{props.education.description}</div>
+      <div className={style.workBlock__description}>
+        {props.education.description}
+      </div>
     </div>
   );
 };

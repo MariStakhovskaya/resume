@@ -19,7 +19,7 @@ export const Certificates = () => {
       title: 'JavaScript/Front-end 2022Q3',
       date: '15.03.2023',
       school: 'The Rolling Scopes School',
-      icon: <IoLogoJavascript style={{ fontSize: '2em' }} />,
+      icon: <IoLogoJavascript style={{ fontSize: '4rem' }} />,
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ export const Certificates = () => {
       title: 'React 2023Q1',
       date: '07.06.2023',
       school: 'The Rolling Scopes School',
-      icon: <FaReact style={{ fontSize: '2em' }} />,
+      icon: <FaReact style={{ fontSize: '4rem' }} />,
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ export const Certificates = () => {
       title: 'Angular 2023/Q4',
       date: '22.01.2024',
       school: 'The Rolling Scopes School',
-      icon: <FaAngular style={{ fontSize: '2em' }} />,
+      icon: <FaAngular style={{ fontSize: '4rem' }} />,
     },
   ];
   const [isModalOpen, setIsModalOpen] = useState(false);

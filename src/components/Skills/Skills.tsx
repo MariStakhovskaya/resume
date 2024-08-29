@@ -52,10 +52,7 @@ export const Skills = () => {
       {skills.map((skill) => (
         <div key={skill.id} className={style.skill}>
           <div className={style.skill__block}>
-            <div
-              className={style.skill__icon}
-              style={{ color: skill.color, fontSize: '4em' }}
-            >
+            <div className={style.skill__icon} style={{ color: skill.color }}>
               {skill.icon}
             </div>
           </div>

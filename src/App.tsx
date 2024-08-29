@@ -15,13 +15,16 @@ import A from './assets/A.png';
 import R from './assets/R.png';
 import JS from './assets/JS.png';
 import H from './assets/H.png';
+import TS from './assets/TS.png';
+import CSS from './assets/CSS.png';
 
 const shapes = [
-  { id: 1, x: 0, y: 50, src: R },
-  { id: 2, x: 1000, y: 0, src: H },
-  { id: 3, x: 1470, y: 10, src: A },
-  { id: 4, x: 1460, y: 640, src: R },
-  { id: 6, x: 0, y: 620, src: JS },
+  { id: 1, x: 10, y: 50, src: JS },
+  { id: 2, x: 1460, y: 200, src: H },
+  { id: 3, x: 1360, y: 20, src: R },
+  { id: 4, x: 1400, y: 640, src: TS },
+  { id: 6, x: 0, y: 630, src: CSS },
+  { id: 5, x: 60, y: 350, src: A },
 ];
 
 export function App() {

@@ -8,7 +8,7 @@
     line-height: 1.2;
     border: 0;
     outline: 0;
-    border: 2px solid var(--color-accent-500);
+    border: 2px solid var(--color-accent-700);
     color: #222;
     text-shadow: none;
     background-color: #fff;
@@ -31,10 +31,10 @@
 
 .btn-primary:hover {
     color: #fff;
-    background-color: var(--color-accent-500) ;
+    background-color: var(--color-accent-700) ;
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: var(--color-dark-500) ;
+    background-color: var(--color-dark-700) ;
 }

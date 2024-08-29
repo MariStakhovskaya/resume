@@ -11,9 +11,9 @@ export const Kontakts = () => {
       icon: <MdOutlineEmail />,
       kontact: 'maria.stachovski.de@gmail.com',
     },
-    { id: 2, icon: <FaTelegramPlane />, kontact: 'maria.stachovski' },
+    { id: 2, icon: <FaTelegramPlane />, kontact: 'Maria.St' },
     { id: 3, icon: <FaWhatsapp />, kontact: 'maria.stachovski' },
-    { id: 4, icon: <FaLinkedin />, kontact: 'maria.stachovski' },
+    { id: 4, icon: <FaLinkedin />, kontact: 'maria-stachovski' },
   ];
   return (
     <div className={style.kontakts}>

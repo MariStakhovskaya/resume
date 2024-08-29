@@ -2,13 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
-    margin: 40px 0px;
+    gap: 1rem;
+    margin-bottom: 12rem;
+    
 }
 
 .certificate__block {
-width: 40rem;
-height: 10rem;
+width: 38rem;
+height: 12rem;
 border: 1px solid #f2f2f2;
 border-radius: 10px;
 cursor: pointer;
@@ -20,36 +21,49 @@ display: flex;
 .certificate__block:hover {
     transform: translateY(-10px); 
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); 
+    border-color: var( --color-accent-700);
+ 
+    .certificate__icon {
+        background-color: var( --color-accent-700);
+        border-radius: 10px;  
+     }
+     .certificate__icon svg{
+        color: #FFF;
+        font-size: 3rem;
+        
+     }
 }
 
 .certificate__icon {
-    width: 145px;
-   background-color: #f5f5f5;
+   width: 12rem;
+   height: 12rem;
+   background-color: #F3F7F7;
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
+
 .certificate__description {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .certificate__description h4 {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #333;
     margin: 0;
 }
 
 .certificate__date {
-    font-size: 9.8px;
+    font-size: 0.98rem;
     color: #777;
 
 }
 
 .certificate__school {
-    font-size: 12.6px;
+    font-size: 1.26rem;
     color: #777;
 }
