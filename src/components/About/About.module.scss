@@ -27,21 +27,22 @@
 .about__description h4 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
-    color: #AAA;
+    color: var(--color-grey-txt);
     font-weight: 300;
 }
 
 .about__description h1 {
-    font-size: 4.8rem;
+    font-size: 5.2rem;
     line-height: 5.6rem;
+    font-weight: var(--font-weight-semibold);
     margin-top: 0;
     margin-bottom: 2rem;
-    color: #333;
+    color: var(--color-Black-txt);
 }
 
 .about__description p {
     font-size: var( --font-size-l);
-    color: #666;
+    color: var(--color-gray-dark-txt);
     margin: 0 0 15px;
     font-weight: 400;
     font-style: normal;

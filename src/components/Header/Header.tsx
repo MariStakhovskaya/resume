@@ -15,7 +15,8 @@ function Header() {
     <header className={style.header}>
       <div className={style.header__logo} onClick={() => navigate('/resume/')}>
         <span className={style.header__logoM}>M</span>
-        <span className={style.header__logoName}>Maria</span> Stachovski
+        <span className={style.header__logoName}>Maria</span>{' '}
+        <span className={style.header__logoFamily}>Stachovski</span>
       </div>
       <div className={style.language}>
         <div>

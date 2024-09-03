@@ -11,10 +11,10 @@ import TS from './assets/TS.png';
 import CSS from './assets/CSS.png';
 
 const shapes = [
-  { id: 1, x: 10, y: 50, src: JS },
-  { id: 2, x: 1460, y: 200, src: H },
-  { id: 3, x: 1360, y: 20, src: R },
-  { id: 4, x: 1400, y: 640, src: TS },
+  { id: 1, x: 5, y: 40, src: JS },
+  { id: 2, x: 1450, y: 200, src: H },
+  { id: 3, x: 1360, y: 5, src: R },
+  { id: 4, x: 1400, y: 635, src: TS },
   { id: 6, x: 0, y: 630, src: CSS },
   { id: 5, x: 60, y: 350, src: A },
 ];
@@ -28,7 +28,6 @@ export function App() {
 
   useEffect(() => {
     const handleMouseMove = () => {
-      // При каждом движении мыши обновляем случайные смещения
       targetOffsets.current = targetOffsets.current.map(() => ({
         offsetX: Math.random() * 20 - 10,
         offsetY: Math.random() * 20 - 10,
@@ -46,7 +45,7 @@ export function App() {
             (targetOffsets.current[index].offsetY - offset.offsetY) * 0.02,
         })),
       );
-      requestAnimationFrame(animate); // Рекурсивная анимация
+      requestAnimationFrame(animate);
     };
 
     animate();

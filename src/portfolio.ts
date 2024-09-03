@@ -16,12 +16,12 @@ export const portfolio: portfolioType[] = [
   {
     id: '1',
     title: 'Online Store DuckyDuck',
-    tehnology: ['React', 'TS', 'CSS'],
+    tehnology: ['React', 'TS', 'CSS', 'React Router', 'Redux Toolkit'],
     screenImg: [store, store1, store2],
     deployLink: 'https://maristakhovskaya.github.io/online-store/',
     description:
       'Ein in RSS-Kursen erstelltes Bildungsprojekt, von der Idee bis zur Umsetzung in einem Team aus zwei Frontend-Entwicklern.  Der Online-Shop umfasst einen Warenkorb, Sortierung, Suche, Paginierung, Filterung und eine Karte für ein einzelnes Produkt.',
-    autor: 'grfewq',
+    autor: 'Maria Stachovski, Darya Suravtsova',
   },
   {
     id: '2',

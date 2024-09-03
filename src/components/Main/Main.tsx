@@ -10,31 +10,29 @@ import About from '../About/About';
 
 export function Main() {
   return (
-    <>
-      <div className={style.wrapper}>
-        <Element name="section1" className="section">
-          <About />
-        </Element>
-        <Element name="section2" className="section">
-          <TitleBlock title={'Resume'} />
-          <Resume />
-        </Element>
+    <div className={style.wrapper}>
+      <Element name="section1" className="section">
+        <About />
+      </Element>
+      <Element name="section2" className="section">
+        <TitleBlock title={'Resume'} />
+        <Resume />
+      </Element>
 
-        <TitleBlock title={'Certificated'} />
-        <Certificates />
+      <TitleBlock title={'Certificated'} />
+      <Certificates />
 
-        <TitleBlock title={'Skills'} />
-        <Skills />
+      <TitleBlock title={'Skills'} />
+      <Skills />
 
-        <Element name="section5" className="section">
-          <TitleBlock title={'Portfolio'} />
-          <Portfolio />
-        </Element>
-        <Element name="section6" className="section">
-          <TitleBlock title={'Kontakt'} />
-          <Kontakts />
-        </Element>
-      </div>
-    </>
+      <Element name="section5" className="section">
+        <TitleBlock title={'Portfolio'} />
+        <Portfolio />
+      </Element>
+      <Element name="section6" className="section">
+        <TitleBlock title={'Kontakt'} />
+        <Kontakts />
+      </Element>
+    </div>
   );
 }
