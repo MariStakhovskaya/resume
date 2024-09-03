@@ -1,3 +1,7 @@
+import store from './assets/store.png';
+import store1 from './assets/store1.png';
+import store2 from './assets/store2.png';
+
 export type portfolioType = {
   id: string;
   title: string;
@@ -5,20 +9,19 @@ export type portfolioType = {
   screenImg: Array<string>;
   deployLink: string;
   description: string;
-  github: string;
+  autor: string;
 };
 
 export const portfolio: portfolioType[] = [
   {
     id: '1',
-    title: 'Todo',
+    title: 'Online Store DuckyDuck',
     tehnology: ['React', 'TS', 'CSS'],
-    screenImg: [
-      'https://avatars.dzeninfra.ru/get-zen_doc/3472554/pub_5f072d2ce14a9d6f3f67a4e4_5f072d8b10be9a47f21e84f6/scale_1200',
-    ],
-    deployLink: 'ggg',
-    description: 'gfdserfger',
-    github: 'grfewq',
+    screenImg: [store, store1, store2],
+    deployLink: 'https://maristakhovskaya.github.io/online-store/',
+    description:
+      'Ein in RSS-Kursen erstelltes Bildungsprojekt, von der Idee bis zur Umsetzung in einem Team aus zwei Frontend-Entwicklern.  Der Online-Shop umfasst einen Warenkorb, Sortierung, Suche, Paginierung, Filterung und eine Karte für ein einzelnes Produkt.',
+    autor: 'grfewq',
   },
   {
     id: '2',
@@ -27,7 +30,7 @@ export const portfolio: portfolioType[] = [
     screenImg: ['https://amorem.ru/upload/iblock/d20/1.jpg'],
     deployLink: 'ggg',
     description: 'gfdserfger',
-    github: 'grfewq',
+    autor: 'grfewq',
   },
   {
     id: '3',
@@ -36,7 +39,7 @@ export const portfolio: portfolioType[] = [
     screenImg: ['https://amorem.ru/upload/iblock/d20/1.jpg'],
     deployLink: 'ggg',
     description: 'gfdserfger',
-    github: 'grfewq',
+    autor: 'grfewq',
   },
   {
     id: '4',
@@ -45,6 +48,6 @@ export const portfolio: portfolioType[] = [
     screenImg: ['https://amorem.ru/upload/iblock/d20/1.jpg'],
     deployLink: 'ggg',
     description: 'gfdserfger',
-    github: 'grfewq',
+    autor: 'grfewq',
   },
 ];

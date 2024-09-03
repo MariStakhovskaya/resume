@@ -2,8 +2,10 @@ import CircleImage from './CircleImage/CircleImage';
 import style from './About.module.scss';
 import myPhoto from '../../assets/photo1.png';
 import { Button } from '../ui/button/button';
+import { useTranslation } from 'react-i18next';
 
 function About() {
+  const { t } = useTranslation();
   return (
     // <div className={style.main}>
     <div className={style.main__about}>
@@ -22,7 +24,7 @@ function About() {
           Probleme.
         </p>
         <div>
-          <Button title="Download CV" className="btn-primary" />
+          <Button title={t('Download CV')} className="btn-primary" />
           {/* <Button title="contact" className="btn-secondary" /> */}
         </div>
       </div>

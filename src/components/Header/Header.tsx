@@ -1,9 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import Nav from '../Nav/Nav';
 import style from './Header.module.scss';
 import { useTranslation } from 'react-i18next';
 
 function Header() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
@@ -11,7 +13,7 @@ function Header() {
   };
   return (
     <header className={style.header}>
-      <div className={style.header__logo}>
+      <div className={style.header__logo} onClick={() => navigate('/resume/')}>
         <span className={style.header__logoM}>M</span>
         <span className={style.header__logoName}>Maria</span> Stachovski
       </div>

@@ -1,0 +1,51 @@
+.project {
+ margin-bottom: 12rem;
+ margin-top: 5rem;
+}
+
+.project h1 {
+    margin-bottom: 5rem;
+    margin-left: 11rem;
+    font-size: 3.2rem;
+    color: var(--color-dark-900);
+}
+
+.project__description h3 {
+    font-size: 1.8rem;
+    color: var(--color-dark-900);
+}
+
+.project__wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+
+.project__description {
+    max-width: 39rem;
+    // position: relative;
+    padding: 25px 30px;
+    background-color: #fefefe;
+    border-radius: 15px;
+    border: 2px solid #eee;
+}
+
+.tags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tags li {
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    color: #666;
+    padding: 2px 7px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 2px solid #e5e5e5;
+    margin: 3px 2px 2px;
+}

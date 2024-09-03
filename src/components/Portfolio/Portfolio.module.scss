@@ -1,9 +1,7 @@
 .portfolio {
     display: flex;
-    // flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-bottom:12rem;
-    margin-left: 11rem;
-   
-
+    justify-content: center;
 }
