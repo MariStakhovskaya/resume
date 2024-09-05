@@ -1,5 +1,5 @@
 import { EducationType } from '../Resume';
-import style from './Work.module.scss';
+import style from './Works.module.scss';
 
 type EducationPropsType = {
   education: EducationType;

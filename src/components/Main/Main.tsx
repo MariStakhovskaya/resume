@@ -7,10 +7,12 @@ import { TitleBlock } from '../ui/titleBlock/titleBlock';
 import style from './Main.module.scss';
 import { Element } from 'react-scroll';
 import About from '../About/About';
+import Header from '../Header/Header';
 
 export function Main() {
   return (
-    <div className={style.wrapper}>
+    <main className={style.wrapper}>
+      <Header />
       <Element name="section1" className="section">
         <About />
       </Element>
@@ -33,6 +35,6 @@ export function Main() {
         <TitleBlock title={'Kontakt'} />
         <Kontakts />
       </Element>
-    </div>
+    </main>
   );
 }

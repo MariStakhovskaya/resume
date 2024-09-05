@@ -53,14 +53,14 @@ export const Resume = () => {
 
   const workExpirience: EducationType[] = [
     {
-      id: '1',
+      id: '6',
       date: '2023-heute',
       company: 'StartUp Lernberg, Kassel',
       title: 'Frontend Entwicklerin',
       description: 'Entwicklung des Frontend-Teils der App mit Angular',
     },
     {
-      id: '2',
+      id: '7',
       date: '2015-2018',
       company: '11 Region GmbH, Minsk, Belarus',
       title: 'Stellvertretende Direktorin',
@@ -68,7 +68,7 @@ export const Resume = () => {
         'Entwickelte und betrieb einen Online-Shop (OpenCart), Erstellung von Landing Pages (HTML und CSS), Aufbau eines Kundenstamms (MS Access), Kundenberatung.',
     },
     {
-      id: '3',
+      id: '8',
       date: '2007-2015',
       company: 'Belarusdance GmbH, Minsk, Belarus',
       title: 'Bürokauffrau, Organisatorin für Wettbewerbe',
@@ -76,7 +76,7 @@ export const Resume = () => {
         'Arbeitete mit Websites (CMS WordPress, Joomla), Organisierte und veranstaltete gemeinsam mit dem Team die größten Tanzwettbewerbe, Tätig im Auszählungsausschuss des Wettbewerbs, Bürotätigkeit.',
     },
     {
-      id: '4',
+      id: '9',
       date: '2004-2007',
       company: 'Belarusdance GmbH, Minsk, Belarus',
       title: 'Tanztrainerin',

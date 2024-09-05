@@ -1,19 +1,14 @@
 .btn-primary, .btn-secondary {
     display: inline-block;
-    position: relative;
     padding: .8em 2.1em;
-    margin-bottom: .75em;
-    margin-right: .25em;
-    font-size: 1.8rem;
-    font-weight: var(--font-weight-regula);
-    line-height: 1.2;
+    font-size: 1.8rem; 
     border: 0;
     outline: 0;
-    border: 2px solid var(--color-accent-700);
+    border: 2px solid var(--color-blue_dark_accent);
     color: var(--color-grey-dark-txt);
     text-shadow: none;
-    background-color: #fff;
-    border-radius: 30px;
+    background-color: var(--color-white);
+    border-radius: 3rem;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;

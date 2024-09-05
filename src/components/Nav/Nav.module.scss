@@ -1,11 +1,12 @@
 .nav {
     font-size: 1.4rem;
+    font-weight: var(--font-weight-regular);
   
     &__list {
       list-style: none;
       display: flex;
       justify-content: space-between;
-      gap: 4.7rem;
+      gap: 4rem;
     }
   
     &__link {
@@ -22,5 +23,5 @@
 
 
   .nav__item_active {
-    color: var(--color-dark-900);
+    color: var(--color-black-txt);
   }

@@ -7,10 +7,9 @@ import { useTranslation } from 'react-i18next';
 function About() {
   const { t } = useTranslation();
   return (
-    // <div className={style.main}>
     <div className={style.main__about}>
       <div className={style.about__photo}>
-        <CircleImage src={myPhoto} alt="icon" />
+        <CircleImage src={myPhoto} alt="Maria" />
       </div>
       <div className={style.about__description}>
         <h4>Frontend Entwicklerin</h4>
@@ -29,7 +28,6 @@ function About() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 

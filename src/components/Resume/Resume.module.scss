@@ -1,6 +1,8 @@
 .resumeBlock {
     display: flex;
-    margin-left: 11rem;
+    // margin-left: 11rem;
+    justify-content: center;
+    margin: 0 77px;
 }
 
 .resumeBlock__column {
@@ -28,7 +30,7 @@
 }
 
 .resumeBlock__column h3 {
-   display: inline-block;
+    display: inline-block;
     position: relative;
     font-size: 3rem;
     font-weight: var(--font-weight-semibold);
@@ -36,6 +38,7 @@
     z-index: 1;
     padding-bottom: 7px;
     margin-bottom: 4rem;
+    margin-left: 25px;
 }
 
 

@@ -72,7 +72,7 @@ export function App() {
         ))}
       </div>
       <div className={style.wrapper}>
-        <Header />
+        {/* <Header /> */}
         <Outlet />
 
         <Footer />
