@@ -1,4 +1,3 @@
-import Header from './components/Header/Header';
 import style from './App.module.scss';
 import { Footer } from './components/Footer/Footer';
 import { Outlet } from 'react-router-dom';
@@ -72,7 +71,6 @@ export function App() {
         ))}
       </div>
       <div className={style.wrapper}>
-        {/* <Header /> */}
         <Outlet />
 
         <Footer />
