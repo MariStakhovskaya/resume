@@ -1,13 +1,13 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 
 import { App } from '../App';
 import Error404 from '../components/Error404/Error404';
 import { Main } from '../components/Main/Main';
 import { Project } from '../components/Portfolio/Project/Project';
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
-    path: '/resume/',
+    path: '/',
     element: <App />,
     errorElement: <Error404 />,
     children: [

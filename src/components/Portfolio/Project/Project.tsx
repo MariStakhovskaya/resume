@@ -71,7 +71,7 @@ export const Project = () => {
             </button>
           </div>
 
-          <button onClick={() => navigate('/resume/')}>
+          <button onClick={() => navigate('/')}>
             <svg
               width="48"
               height="48"

@@ -13,7 +13,7 @@ function Header() {
   };
   return (
     <header className={style.header}>
-      <div className={style.header__logo} onClick={() => navigate('/resume/')}>
+      <div className={style.header__logo} onClick={() => navigate('/')}>
         <span className={style.header__logoInitial}>M</span>
         <span className={style.header__logoName}>Maria</span>{' '}
         <span className={style.header__logoFamily}>Stachovski</span>
