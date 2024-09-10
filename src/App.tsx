@@ -11,7 +11,7 @@ import CSS from './assets/CSS.png';
 export function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
-  const rX = screenWidth - 150;
+  // const rX = screenWidth - 150;
   const hX = screenWidth - 90;
   const tsX = screenWidth - 130;
 
