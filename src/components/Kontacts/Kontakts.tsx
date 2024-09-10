@@ -1,4 +1,3 @@
-import { FaWhatsapp } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import style from './Kontakts.module.scss';
 import wapp from '../../assets/wa_icon.png';
