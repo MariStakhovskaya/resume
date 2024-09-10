@@ -11,13 +11,25 @@ export const Project = () => {
 
   const project = portfolio.find((pr) => pr.id === id);
 
+  const nextProject = (index: string) => {
+    if (+index < portfolio.length) {
+      navigate(`/portfolio/${+index + 1}`);
+    }
+  };
+
+  const prevProject = (index: string) => {
+    if (2 <= +index && +index <= portfolio.length) {
+      navigate(`/portfolio/${+index - 1}`);
+    }
+  };
+
   return (
     <div className={style.project}>
       <div className={style.project__header}>
         <h1>{project?.title}</h1>
         <div className={style.header__nav}>
           <div className={style.header__arrow}>
-            <button>
+            <button onClick={() => prevProject(project!.id)}>
               <svg
                 width="48"
                 height="48"
@@ -41,7 +53,7 @@ export const Project = () => {
                 />
               </svg>
             </button>
-            <button>
+            <button onClick={() => nextProject(project!.id)}>
               <svg
                 width="48"
                 height="48"

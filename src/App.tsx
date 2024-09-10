@@ -1,5 +1,4 @@
 import style from './App.module.scss';
-import { Footer } from './components/Footer/Footer';
 import { Outlet } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 import A from './assets/A.png';
@@ -9,16 +8,34 @@ import H from './assets/H.png';
 import TS from './assets/TS.png';
 import CSS from './assets/CSS.png';
 
-const shapes = [
-  { id: 1, x: 5, y: 40, src: JS },
-  { id: 2, x: 1450, y: 200, src: H },
-  { id: 3, x: 1360, y: 5, src: R },
-  { id: 4, x: 1400, y: 635, src: TS },
-  { id: 6, x: 0, y: 630, src: CSS },
-  { id: 5, x: 60, y: 350, src: A },
-];
-
 export function App() {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const rX = screenWidth - 150;
+  const hX = screenWidth - 90;
+  const tsX = screenWidth - 130;
+
+  const shapes = [
+    { id: 1, x: 5, y: 40, src: JS },
+    { id: 2, x: hX, y: 200, src: H },
+    { id: 3, x: screenWidth * 0.87, y: 5, src: R },
+    { id: 4, x: tsX, y: 635, src: TS },
+    { id: 6, x: screenWidth * 0.01, y: 630, src: CSS },
+    { id: 5, x: 60, y: 350, src: A },
+  ];
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const [offsets, setOffsets] = useState(
     shapes.map(() => ({ offsetX: 0, offsetY: 0 })),
   );
@@ -72,8 +89,6 @@ export function App() {
       </div>
       <div className={style.wrapper}>
         <Outlet />
-
-        <Footer />
       </div>
     </>
   );

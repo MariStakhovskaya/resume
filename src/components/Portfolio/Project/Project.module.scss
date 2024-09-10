@@ -1,95 +1,36 @@
-
-// .project__header {
-//    display: flex;
-//    align-items: center;
-//    justify-content: space-between;
-//    padding: 0 8rem;
-//    margin-top: 8rem;
-//    margin-bottom: 5rem;
-// }
-
-// .header__nav button{
-//  border: none;
-//  background-color: #fff;
-//  cursor: pointer;
-// }
-
-// .header__nav button:hover{
-//    background-color: #e5e5e5;
-//    }
-
-// .project h1 {
-//     font-size: 5.2rem;
-//     color: var(--color-black-txt);
-//     font-weight: var(--font-weight-semibold);
-//     outline: none;
-// }
-
-// .project__description h3 {
-//     font-size: 1.8rem;
-//     color: var(--color-black-txt);
-// }
-
-// .project__wrapper {
-//     display: inline-flex;
-//     // flex-wrap: wrap;
-//     justify-content: space-between;
-//     margin: 0 11rem;
-//     gap: 3rem; 
-//     padding: 2rem;
-    
-// }
-
-// .project__slider {
-//     //  flex: 2;
-// }
-
-// .project__description {
-//     //  flex: 1;
-//     max-width: 40rem;
-//     // position: relative;
-//     padding: 25px 30px;
-//     background-color: #fefefe;
-//     border-radius: 15px;
-//     border: 2px solid #eee;
-// }
-
-// .tags {
-//     list-style: none;
-//     margin: 0;
-//     padding: 0;
-// }
-
-// .tags li {
-//     display: inline-block;
-//     font-size: 1.2rem;
-//     line-height: 1.5em;
-//     color: #666;
-//     padding: 2px 7px;
-//     background-color: #fff;
-//     border-radius: 3px;
-//     border: 2px solid #e5e5e5;
-//     margin: 3px 2px 2px;
-// }
-
-
-
 .project {
     display: flex;
     flex-direction: column;
     padding: 8rem 11rem;
+
+     @media (max-width: 480px) {
+      padding: 1rem;
+      }
   
     &__header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-    //   margin-bottom: 2rem;
       margin-bottom: 5rem;
+
+      @media (max-width: 480px) {
+        margin-bottom: 2rem;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        }
   
       h1 {
         font-size: 5.2rem;
         font-weight: var(--font-weight-semibold);
         color: var(--color-black-txt);
+
+        @media (max-width: 1024px) {
+          font-size: 3.6rem;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 2.2rem;
+          }
     
       }
   
@@ -99,17 +40,32 @@
         justify-content: space-between;
         margin-right: -5rem;
 
-        @media (max-width: 1200px) {
-            gap: 5rem;
+        @media (max-width: 1024px) {
+            gap: 3rem;
+            width: 30rem;
           }
+
+          @media (max-width: 480px) {
+            gap:1rem;
+           
+            }
   
         button {
           background: none;
           border: none;
           cursor: pointer;
+
+          svg {
+            width: 4.8rem;
+
+            @media (max-width: 480px) {
+              width: 1.4rem;
+              }
+          }
   
           svg .icon__rect {
             fill: var(--color-grey-dark-txt);
+          
           }
 
           svg .icon__rect, svg .icon__arrow {
@@ -127,17 +83,17 @@
     &__wrapper {
       display: grid;
       grid-template-columns: 2fr 1fr;
+      
       gap: 3rem; 
       align-items: start;
       height: 100%;
   
-      @media (max-width: 1200px) {
+      @media (max-width: 1024px) {
         grid-template-columns: 1fr;
       }
     }
   
     &__slider {
-      // Левая колонка
       display: flex;
       justify-content: center;
       align-items: center;
@@ -149,7 +105,6 @@
     }
   
     &__description {
-      // Правая колонка
       display: flex;
       flex-direction: column;
       width: 44rem;
@@ -160,9 +115,16 @@
       border: 2px solid #eee;
       font-size: 1.6rem;
       color: var(--color-grey-dark-txt);
+
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+
+      @media (max-width: 480px) {
+      font-size:1.4rem ;
+        }
   
       h3 {
-        // margin-bottom: 1rem;
         font-size: 1.6rem;
         font-weight: var(--font-weight-semibold);
         color: var(--color-black-txt);
@@ -184,7 +146,11 @@
       }
 
       .project__technologies {
-        margin-top: 6rem;
+        margin-top: 2rem;
+
+        @media (max-width: 480px) {
+          font-size:1.2rem ;
+            }
       }
   
       .tags {
@@ -195,7 +161,6 @@
         li {
           display: inline-block;
           font-size: 1.6rem;
-          // line-height: 1.5em;
           color: var(--color-grey-dark-txt);
           padding: 2px 7px;
           background-color: #fff;
@@ -203,6 +168,10 @@
           border: 2px solid var(--color-grey-stroke);
           margin: 3px 2px 2px;
           font-weight: var(--font-weight-regular);
+
+          @media (max-width: 480px) {
+            font-size:1.2rem ;
+              }
         }
       }
     }

@@ -8,6 +8,7 @@ import style from './Main.module.scss';
 import { Element } from 'react-scroll';
 import About from '../About/About';
 import Header from '../Header/Header';
+import { Footer } from '../Footer/Footer';
 
 export function Main() {
   return (
@@ -35,6 +36,7 @@ export function Main() {
         <TitleBlock title={'Kontakt'} />
         <Kontakts />
       </Element>
+      <Footer />
     </main>
   );
 }

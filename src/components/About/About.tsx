@@ -3,6 +3,7 @@ import style from './About.module.scss';
 import myPhoto from '../../assets/photo1.png';
 import { Button } from '../ui/button/button';
 import { useTranslation } from 'react-i18next';
+import CV from '../../assets/MariaStachovski CV Frontend.pdf';
 
 function About() {
   const { t } = useTranslation();
@@ -23,7 +24,11 @@ function About() {
           Probleme.
         </p>
         <div>
-          <Button title={t('Download CV')} className="btn-primary" />
+          <Button
+            title={t('Download CV')}
+            className="btn-primary"
+            onClick={() => window.open(CV, '_blank')}
+          />
           {/* <Button title="contact" className="btn-secondary" /> */}
         </div>
       </div>
