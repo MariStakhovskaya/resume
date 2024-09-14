@@ -1,5 +1,4 @@
 import { useNavigate, useParams } from 'react-router-dom';
-import { useSwipeable } from 'react-swipeable';
 
 import { IoMdPerson } from 'react-icons/io';
 import { TbWorld } from 'react-icons/tb';
