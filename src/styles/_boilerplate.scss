@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    // font-size: 100%;
     font-size: 62.5%;
    
     -webkit-font-smoothing: antialiased;
@@ -9,20 +8,29 @@ html {
     
       font-size: calc(100vw / 1920 * 10);
     
-      @media (max-width: 1600px) {
-        font-size: calc(100vw / 1600 * 10);
-      }
+      // @media (max-width: 1600px) {
+      //   font-size: calc(100vw / 1600 * 10);
+      // }
+
     
       @media (max-width: 1024px) {
-        font-size: calc(100vw / 1200 * 10);
+        font-size: calc(100vw / 1024 * 10);
       }
+
+      // @media (max-width: 768px) {
+      //   font-size: calc(100vw / 768 * 10);
+      // }
+
+      // @media (max-width: 575px) {
+      //   font-size: calc(100vw / 575 * 10);
+      // }
     
       @media (max-width: 480px) {
-        font-size: calc(100vw / 320 * 10);
+        font-size: calc(100vw / 480 * 10);
       }
     
-      @media (max-width: 320px) {
-        font-size: calc(100vw / 320 * 10);
+      @media (max-width: 360px) {
+        font-size: calc(100vw / 360 * 10);
       } 
    
   }

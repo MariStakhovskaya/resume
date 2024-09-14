@@ -1,6 +1,7 @@
-import style from './Portfolio.module.scss';
-import { portfolio } from '../../portfolio';
 import { Work } from './Work/Work';
+import { portfolio } from '../../data/portfolio';
+
+import style from './Portfolio.module.scss';
 
 export const Portfolio = () => {
   return (

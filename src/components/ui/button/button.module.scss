@@ -21,15 +21,15 @@
     border-color: #d5d5d5;
     background-color: #fff;
     box-shadow: 0 10px 10px -8px #d5d5d5;
-    color: var(--color-dark-500);
+    color: var(--color-blue_accent);
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: var(--color-accent-700) ;
+    background-color: var(--color-blue_dark_accent) ;
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: var(--color-dark-700) ;
+    background-color: var(--color-blue_dark_accent) ;
 }

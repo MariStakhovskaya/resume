@@ -3,32 +3,34 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
-   margin-bottom: 12rem;
+    gap: 3rem;
+    margin-bottom: 12rem;
 }
 
 .skill {
     text-align: center;
-    // transition: transform 0.3s ease-in-out;
+
+    // Element skill__block
+    &__block {
+      width: 20.5rem;
+      height: 20.5rem;
+      background-color: #F3F7F7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius:1rem ;
+
+      &:hover{
+        background-color: var(--color-blue_dark_accent);
+      }
+    }
+    // Element skill__icon
+    &__icon {
+      font-size: 10rem;
+    }
   }
 
-  .skill__block {
-    width: 20.5rem;
-    height: 20.5rem;
-    background-color: #F3F7F7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:1rem ;
-  }
-  
-  .skill__icon {
-    font-size: 10rem;
-  }
   
  
-  .skill__block:hover{
-    background-color: var( --color-accent-700);
-  }
 
   

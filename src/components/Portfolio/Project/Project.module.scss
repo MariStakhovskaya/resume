@@ -25,7 +25,7 @@
         color: var(--color-black-txt);
 
         @media (max-width: 1024px) {
-          font-size: 3.6rem;
+          font-size: 3.4rem;
         }
 
         @media (max-width: 480px) {
@@ -38,7 +38,7 @@
         display: flex;
         width: 44rem;
         justify-content: space-between;
-        margin-right: -5rem;
+        // margin-right: -5rem;
 
         @media (max-width: 1024px) {
             gap: 3rem;
@@ -46,8 +46,9 @@
           }
 
           @media (max-width: 480px) {
-            gap:1rem;
-           
+            gap:2rem;
+            margin-bottom: 2rem;
+            width: 100%;
             }
   
         button {
@@ -57,10 +58,6 @@
 
           svg {
             width: 4.8rem;
-
-            @media (max-width: 480px) {
-              width: 1.4rem;
-              }
           }
   
           svg .icon__rect {
@@ -114,6 +111,7 @@
       border-radius: 15px;
       border: 2px solid #eee;
       font-size: 1.6rem;
+      line-height: 2.8rem;
       color: var(--color-grey-dark-txt);
 
       @media (max-width: 1024px) {
@@ -121,7 +119,11 @@
       }
 
       @media (max-width: 480px) {
-      font-size:1.4rem ;
+        font-size: 1.6rem;
+        background-color: #fff;
+        border-radius: none;
+        border:none;
+        padding: 3rem 2rem;
         }
   
       h3 {
@@ -138,8 +140,10 @@
         li {
           margin-bottom: 0.5rem;
           a {
-            text-decoration: none;
-            color: var(--color-black-txt)
+            font-size: 1.6rem;
+            text-decoration: underline;
+            color: var(--color-blue_dark_accent);
+            font-weight: var(--font-weight-semibold);
             
           }
         }
@@ -170,9 +174,15 @@
           font-weight: var(--font-weight-regular);
 
           @media (max-width: 480px) {
-            font-size:1.2rem ;
+            font-size:1.6rem;
               }
+
         }
       }
     }
+  }
+
+  .item__world {
+    display: flex;
+    align-items: center;
   }

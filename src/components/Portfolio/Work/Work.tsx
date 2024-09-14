@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { portfolioType } from '../../../portfolio';
+import { portfolioType } from '../../../data/portfolio';
 import style from './Work.module.scss';
 
 type WorkType = {

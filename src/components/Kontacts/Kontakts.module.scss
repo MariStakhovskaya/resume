@@ -1,25 +1,22 @@
 .kontakts {
     font-size: 1.8rem;
+    color: var(--color-black-txt);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 10rem;
     flex-wrap: wrap;
-    margin-bottom: 12rem;
+    margin: 0 12rem 12rem;
    
     span {
-        display: flex;
-        
+        display: flex;   
     }
-}
 
-.kontakts__icon {
-    display: flex;
-    align-items: center;
-    gap: 0.1rem;
-}
-
-.icon__icon {
-    color: var(--color-accent-700);
+    &__icon {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }   
 }
 
 .icon__icon svg {

@@ -2,23 +2,27 @@
     margin: 5rem 8rem;
 }
 
+.titleBlock.subTitle {
+    margin-left: 15rem;
+}
+
 .titleBlock h2 {
     position: relative;
     display: inline-block;
     font-size: 3.2rem;
     font-weight: var(--font-weight-semibold);
-    color:  var(--color-Black-txt);
+    color: var(--color-black-txt);
     z-index: 1;
-    padding-bottom: 7px;
+    padding-bottom: .7rem;
 }
 
 .titleBlock h2::after {
     display: block;
     position: absolute;
     content: '';
-    width: 35px;
-    background-color:  var(--color-accent-700);
-    height: 2px;
+    width: 3.5rem;
+    background-color:  var(--color-blue_dark_accent);
+    height: 0.2rem;
     bottom: 0;
 }
 
@@ -28,6 +32,8 @@
     content: '';
     width: 100%;
     background-color: #E2E2E2;
-    height: 2px;
+    height: 0.2rem;
     bottom: 0;
 }
+
+

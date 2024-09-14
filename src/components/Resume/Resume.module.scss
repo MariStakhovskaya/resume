@@ -2,7 +2,7 @@
     display: flex;
     // margin-left: 11rem;
     justify-content: center;
-    margin: 0 77px;
+    margin: 0 11rem 12rem;
 }
 
 .resumeBlock__column {
@@ -32,9 +32,9 @@
 .resumeBlock__column h3 {
     display: inline-block;
     position: relative;
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: var(--font-weight-semibold);
-    color: var(--color-dark-900);
+    color: var(--color-black-txt);
     z-index: 1;
     padding-bottom: 7px;
     margin-bottom: 4rem;

@@ -1,7 +1,7 @@
-import store from './assets/store.png';
-import store1 from './assets/store1.png';
-import store2 from './assets/store2.png';
-import store3 from './assets/store3.png';
+import store from '../assets/store.png';
+import store1 from '../assets/store1.png';
+import store2 from '../assets/store2.png';
+import store3 from '../assets/store3.png';
 
 export type portfolioType = {
   id: string;

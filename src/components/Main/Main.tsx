@@ -22,10 +22,10 @@ export function Main() {
         <Resume />
       </Element>
 
-      <TitleBlock title={'Certificated'} />
+      <TitleBlock title={'Certificated'} className={'subTitle'} />
       <Certificates />
 
-      <TitleBlock title={'Skills'} />
+      <TitleBlock title={'Skills'} className={'subTitle'} />
       <Skills />
 
       <Element name="section5" className="section">

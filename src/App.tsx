@@ -10,6 +10,7 @@ import CSS from './assets/CSS.png';
 
 export function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenHeight, setScreenHeight] = useState(window.innerHeight);
 
   // const rX = screenWidth - 150;
   const hX = screenWidth - 90;
@@ -19,7 +20,7 @@ export function App() {
     { id: 1, x: 5, y: 40, src: JS },
     { id: 2, x: hX, y: 200, src: H },
     { id: 3, x: screenWidth * 0.87, y: 5, src: R },
-    { id: 4, x: tsX, y: 635, src: TS },
+    { id: 4, x: tsX, y: screenHeight * 0.9, src: TS },
     { id: 6, x: screenWidth * 0.01, y: 630, src: CSS },
     { id: 5, x: 60, y: 350, src: A },
   ];
@@ -27,6 +28,7 @@ export function App() {
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
+      setScreenHeight(window.innerHeight);
     };
 
     window.addEventListener('resize', handleResize);

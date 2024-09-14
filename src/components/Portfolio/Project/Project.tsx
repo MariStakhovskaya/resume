@@ -1,9 +1,13 @@
 import { useNavigate, useParams } from 'react-router-dom';
-import style from './Project.module.scss';
-import { portfolio } from '../../../portfolio';
-import Slider from '../Slider/Slider';
+import { useSwipeable } from 'react-swipeable';
+
 import { IoMdPerson } from 'react-icons/io';
 import { TbWorld } from 'react-icons/tb';
+
+import { portfolio } from '../../../data/portfolio';
+import Slider from '../Slider/Slider';
+
+import style from './Project.module.scss';
 
 export const Project = () => {
   const { id } = useParams();
@@ -127,9 +131,11 @@ export const Project = () => {
               <li>
                 <IoMdPerson color="#387178" /> {project?.autor}
               </li>
-              <li>
+              <li className={style.item__world}>
                 <TbWorld color="#387178" />
-                <a href="{project?.deployLink}"> DuckyDuck</a>
+                <a href={project?.deployLink} target="_blank" rel="noreferrer">
+                  DuckyDuck
+                </a>
               </li>
             </ul>
           </div>

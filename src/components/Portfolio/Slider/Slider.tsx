@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { useSwipeable } from 'react-swipeable';
+
 import style from './Slider.module.scss';
 
 type imgType = {
@@ -11,9 +13,26 @@ const Slider = ({ img }: imgType) => {
   const goToSlide = (index: number) => {
     setCurrentIndex(index);
   };
+  // Переход на следующий слайд
+  const goToNextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % img.length);
+  };
+
+  const goToPrevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? img.length - 1 : prevIndex - 1,
+    );
+  };
+
+  const handlers = useSwipeable({
+    onSwipedLeft: () => goToNextSlide(), // Свайп влево
+    onSwipedRight: () => goToPrevSlide(), // Свайп вправо
+    preventScrollOnSwipe: true, // Предотвращаем скроллинг при свайпе
+    trackMouse: true, // Обрабатываем также мышь для тестирования на десктопе
+  });
 
   return (
-    <div className={style.slider}>
+    <div {...handlers} className={style.slider}>
       <div className={style.slider__content}>
         <img
           src={img[currentIndex]}

@@ -2,68 +2,79 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     margin-bottom: 12rem;
     
 }
 
 .certificate__block {
-width: 38rem;
-height: 12rem;
-border: 1px solid #f2f2f2;
-border-radius: 10px;
-cursor: pointer;
-box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1); 
-transition: transform 0.3s ease, box-shadow 0.3s ease; 
-display: flex;
+    width: 44rem; //38
+    height: 12rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+
+    @media (max-width: 1600px) {
+        width: 38rem; 
+      }
 }
 
 .certificate__block:hover {
     transform: translateY(-10px); 
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); 
-    border-color: var( --color-accent-700);
+    border-color: var(--color-blue_dark_accent);
+
+    .certificate__arrow svg path{
+        fill: var(--color-blue_dark_accent); 
+     }
  
     .certificate__icon {
-        background-color: var( --color-accent-700);
+        background-color: var(--color-blue_dark_accent);
         border-radius: 10px;  
      }
-     .certificate__icon svg{
+     .certificate__icon svg  {
         color: #FFF;
-        font-size: 3rem;
-        
+        font-size: 3rem;  
      }
+    
 }
 
 .certificate__icon {
    width: 12rem;
    height: 12rem;
-   background-color: #F3F7F7;
+   background-color: var(--color-blue-light);
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
-
 .certificate__description {
+    width: calc(100% - 12rem);
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    padding: 1rem;
+    // gap: 5px;
+    padding: 1.7rem 2rem 1.7rem 2.5rem;
 }
 
 .certificate__description h4 {
-    font-size: 1.4rem;
-    color: #333;
-    margin: 0;
+    font-size: 1.6rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-black-txt);
+    // margin: 0;
 }
 
 .certificate__date {
-    font-size: 0.98rem;
-    color: #777;
+    font-size: 1.4rem;
+    color: var(--color-grey-dark-txt);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.6rem;
 
 }
 
 .certificate__school {
-    font-size: 1.26rem;
-    color: #777;
+    font-size: 1.6rem;
+    color: var(--color-grey-dark-txt);
 }
