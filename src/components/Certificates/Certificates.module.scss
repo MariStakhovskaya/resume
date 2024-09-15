@@ -3,21 +3,23 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    margin-bottom: 12rem;
+    // margin-bottom: 12rem;
+    margin: 0 11rem 12rem;
     
 }
 
 .certificate__block {
-    width: 44rem; //38
+    width: 100%; // вместо фиксированной ширины
+    min-width: 44rem;
     height: 12rem;
     border: 1px solid #f2f2f2;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
 
-    @media (max-width: 1600px) {
-        width: 38rem; 
-      }
+    // @media (max-width: 1600px) {
+    //     min-width: 38rem; 
+    //   }
 }
 
 .certificate__block:hover {
@@ -72,9 +74,20 @@
     align-items: center;
     margin-top: 1.6rem;
 
+    @media (max-width: 1600px) {
+        margin-top: 0;
+        padding-bottom: 0.1rem;
+      }
+
 }
 
 .certificate__school {
     font-size: 1.6rem;
     color: var(--color-grey-dark-txt);
+}
+
+.modal__img {
+    @media (max-width: 768px) {
+       width: 100%;
+      }
 }

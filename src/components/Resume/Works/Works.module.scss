@@ -3,6 +3,10 @@
     flex-direction: column;
     font-size: 1.6rem;
 
+    @media (max-width: 768px) {
+        padding: 0 1rem;
+      }
+
     &__date {
         display: inline-block;
         font-size: 1.4rem;
@@ -21,10 +25,9 @@
         opacity: .7;
         margin-left: 5px;
     }
+
+    
 }
-
-
-
 
 
 .workBlock__title {

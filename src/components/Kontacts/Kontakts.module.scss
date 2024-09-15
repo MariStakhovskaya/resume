@@ -7,6 +7,12 @@
     gap: 10rem;
     flex-wrap: wrap;
     margin: 0 12rem 12rem;
+
+    @media (max-width: 768px) {
+        justify-content: start;
+        margin: 0 6rem 6rem;
+        gap: 3rem;
+      }
    
     span {
         display: flex;   

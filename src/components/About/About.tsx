@@ -23,7 +23,7 @@ function About() {
           hervorragend arbeiten und finde effektiv Lösungen für komplexe
           Probleme.
         </p>
-        <div>
+        <div className={style.btnBlock}>
           <Button
             title={t('Download CV')}
             className="btn-primary"

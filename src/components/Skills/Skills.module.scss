@@ -4,7 +4,12 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    margin-bottom: 12rem;
+    // margin-bottom: 12rem;
+    margin: 0 11rem 12rem;
+
+    @media (max-width: 768px) {
+      margin: 0 1rem 6rem;
+    }
 }
 
 .skill {
@@ -20,6 +25,11 @@
       align-items: center;
       border-radius:1rem ;
 
+      @media (max-width: 768px) {
+        width: 14.5rem;
+      height: 14.5rem;
+      }
+
       &:hover{
         background-color: var(--color-blue_dark_accent);
       }
@@ -27,6 +37,10 @@
     // Element skill__icon
     &__icon {
       font-size: 10rem;
+
+      @media (max-width: 768px) {
+        font-size: 7rem;
+      }
     }
   }
 

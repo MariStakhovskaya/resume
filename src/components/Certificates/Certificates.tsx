@@ -88,7 +88,11 @@ export const Certificates = () => {
         </div>
       ))}
       <Modal isOpen={isModalOpen} onClose={closeModal}>
-        <img src={selectedImage} alt="Selected Certificate" />
+        <img
+          className={style.modal__img}
+          src={selectedImage}
+          alt="Selected Certificate"
+        />
       </Modal>
     </div>
   );

@@ -1,6 +1,10 @@
 .nav {
     font-size: 1.4rem;
     font-weight: var(--font-weight-regular);
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   
     &__list {
       list-style: none;
@@ -19,6 +23,7 @@
         color: #333;
       }
     }
+
   }
 
 
