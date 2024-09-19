@@ -1,14 +1,15 @@
 .work {
-    width: 32rem;// 28
-    height: 28rem;//26
+    width: 32rem;
+    height: 28rem;
     overflow: hidden;
     position: relative;
     cursor: pointer;
     border-radius: 10px;
 
-    @media (max-width: 460px) {
+    @media (max-width: 480px) {
       width: 100%;
       height: 100%;
+      // border: 1px solid var(--color-blue_accent);
     }
   }
 
@@ -25,6 +26,7 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.4s ease;
+    border-radius: 10px;
   }
   
   .image:hover {
@@ -38,7 +40,7 @@
     width: 100%;
     color: white;
     background-color: var(--color-grey-txt); 
-    padding: 10px;
+    padding: 1rem;
     box-sizing: border-box;
     text-align: center;
     font-size: 1.8rem;
