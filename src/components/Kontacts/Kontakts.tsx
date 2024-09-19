@@ -1,7 +1,5 @@
 import style from './Kontakts.module.scss';
 
-import wapp from '../../assets/wa_icon.png';
-
 export const Kontakts = () => {
   const kontakts = [
     {
