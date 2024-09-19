@@ -17,9 +17,9 @@ html {
         font-size: calc(100vw / 1024 * 10);
       }
 
-      // @media (max-width: 768px) {
-      //   font-size: calc(100vw / 768 * 10);
-      // }
+      @media (max-width: 768px) {
+        font-size: calc(100vw / 768 * 10);
+      }
 
       // @media (max-width: 575px) {
       //   font-size: calc(100vw / 575 * 10);
@@ -29,9 +29,9 @@ html {
         font-size: calc(100vw / 480 * 10);
       }
     
-      // @media (max-width: 360px) {
-      //   font-size: calc(100vw / 360 * 10);
-      // } 
+      @media (max-width: 360px) {
+        font-size: calc(100vw / 360 * 10);
+      } 
    
   }
    

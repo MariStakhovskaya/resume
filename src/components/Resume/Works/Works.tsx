@@ -8,7 +8,7 @@ type EducationPropsType = {
 export const Works = (props: EducationPropsType) => {
   return (
     <div className={style.workBlock}>
-      <div>
+      <div className={style.workBlock__info}>
         <span className={style.workBlock__date}>{props.education.date}</span>{' '}
         <span className={style.workBlock__company}>
           {props.education.company}

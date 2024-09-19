@@ -16,6 +16,10 @@
     transition: all .3s ease-in-out;
     box-shadow: 0 10px 10px -8px rgba(0, 0, 0, .22);
 
+    @media (max-width: 480px) {
+        font-size: 1.6rem; 
+      }
+
 }
 
 .btn-secondary {

@@ -3,13 +3,16 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    // margin-bottom: 12rem;
-    margin: 0 11rem 12rem;
-    
+    margin: 0 11rem 12rem;  
+
+    @media (max-width: 480px) {
+        margin: 0;
+        gap: 1rem;
+       }
 }
 
 .certificate__block {
-    width: 100%; // вместо фиксированной ширины
+    width: 100%;
     min-width: 44rem;
     height: 12rem;
     border: 1px solid #f2f2f2;
@@ -17,9 +20,10 @@
     cursor: pointer;
     display: flex;
 
-    // @media (max-width: 1600px) {
-    //     min-width: 38rem; 
-    //   }
+    @media (max-width: 480px) {
+        min-width: 32rem;
+       }
+
 }
 
 .certificate__block:hover {
@@ -35,11 +39,11 @@
         background-color: var(--color-blue_dark_accent);
         border-radius: 10px;  
      }
+     
      .certificate__icon svg  {
         color: #FFF;
         font-size: 3rem;  
      }
-    
 }
 
 .certificate__icon {
@@ -49,21 +53,33 @@
    display: flex;
    align-items: center;
    justify-content: center;
+
+   @media (max-width: 480px) {
+   display: none;
+  }
 }
 
 .certificate__description {
     width: calc(100% - 12rem);
     display: flex;
     flex-direction: column;
-    // gap: 5px;
     padding: 1.7rem 2rem 1.7rem 2.5rem;
+
+    @media (max-width: 768px) {
+        margin-top: 0;
+        padding: 0.7rem 1rem;  
+      }
+
+      @media (max-width: 480px) {
+        width: 100%;
+        margin-top: 1.6rem;
+       }
 }
 
 .certificate__description h4 {
     font-size: 1.6rem;
     font-weight: var(--font-weight-semibold);
     color: var(--color-black-txt);
-    // margin: 0;
 }
 
 .certificate__date {
@@ -78,7 +94,6 @@
         margin-top: 0;
         padding-bottom: 0.1rem;
       }
-
 }
 
 .certificate__school {

@@ -1,9 +1,18 @@
 .titleBlock {
     margin: 5rem 8rem;
+
+    @media (max-width: 480px) {
+        margin: 8rem 2rem 3rem;
+      }
 }
 
 .titleBlock.subTitle {
     margin-left: 15rem;
+   
+
+    @media (max-width: 480px) {
+        margin-left: 2rem;
+      }
 }
 
 .titleBlock h2 {
@@ -14,6 +23,10 @@
     color: var(--color-black-txt);
     z-index: 1;
     padding-bottom: .7rem;
+
+    @media (max-width: 480px) {
+        font-size: 2.6rem;
+      }
 }
 
 .titleBlock h2::after {

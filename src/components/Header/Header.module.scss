@@ -29,17 +29,31 @@
       background-color: var(--color-blue_dark_accent);
       color: var(--color-white);
       margin-right: 1rem;
+
+      @media (max-width: 480px) {
+        font-size: 1.536rem;
+        width: 2.4rem;
+        height: 2.4rem;
+      }
     }
   
     &__logoName {
       font-weight: var(--font-weight-semibold);
       color: var(--color-black-txt);
       margin-right: .8rem;
+
+      @media (max-width: 480px) {
+        display: none;
+      }
     }
   
     &__logoFamily {
       font-weight: var(--font-weight-light);
-      color: var(--color-black-txt)
+      color: var(--color-black-txt);
+
+      @media (max-width: 480px) {
+        display: none;
+      }
     }
     
   }

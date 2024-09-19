@@ -16,6 +16,11 @@
         line-height: 23px;
         border: 1px solid var(--color-blue_dark_accent);
         border-radius: 30px;
+
+        @media (max-width: 480px) {
+            width: fit-content;
+            margin-bottom: 0.6rem
+          }
     }
 
     &__company {
@@ -24,6 +29,11 @@
         color: var(--color-grey-txt);
         opacity: .7;
         margin-left: 5px;
+
+        @media (max-width: 480px) {
+            font-size: 1.6rem;
+            margin-left: 0;
+          }
     }
 
     
@@ -42,4 +52,11 @@
     font-size: 1.6rem;
     color: var(--color-grey-dark-txt);
     font-weight: 300;
+}
+
+.workBlock__info {
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+      }
 }
