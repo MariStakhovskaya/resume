@@ -12,7 +12,7 @@ export const Resume = () => {
   const [experienceOpen, setExperienceOpen] = useState(false);
 
   const checkMobile = () => {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 1200) {
       setIsMobile(true);
     } else {
       setIsMobile(false);

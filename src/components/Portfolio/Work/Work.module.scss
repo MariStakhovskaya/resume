@@ -10,7 +10,17 @@
     @media (max-width: 1600px) {
       width: 28.3rem;
       height: 24.4rem;
-      
+    }
+
+    @media (max-width: 1200px) {
+      width: 46.5rem;
+      height: 37rem;
+      border: 1px solid var(--color-blue_dark_accent);
+    }
+
+    @media (max-width: 1200px) {
+      width: 62.8rem;
+      height: 50.4rem;
     }
 
     @media (max-width: 480px) {
@@ -55,5 +65,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 1200px) {
+      background-color: var(--color-blue_dark_accent); 
+    }
   }
 

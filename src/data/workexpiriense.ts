@@ -10,9 +10,10 @@ export const workExpirience: workExpirienceType[] = [
   {
     id: '6',
     date: '2023-heute',
-    company: 'StartUp Lernberg, Kassel',
-    title: 'Frontend Entwicklerin',
-    description: 'Entwicklung des Frontend-Teils der App mit Angular',
+    company: 'StartUp Lernberg, Kassel (ehrenamtlich)',
+    title: 'Frontend-Entwicklerin',
+    description:
+      'Gestaltung und Implementierung von Angular-Komponenten, API-Integration, Implementierung von HTTP-Anfragen, Autorisierung und State Management (NgRx), Übernahme der technischen Leitung des FrontendTeams, einschließlich Aufgabenverteilung und Koordination der Zusammenarbeit mit Backend und Design',
   },
   {
     id: '7',
@@ -20,7 +21,7 @@ export const workExpirience: workExpirienceType[] = [
     company: '11 Region GmbH, Minsk, Belarus',
     title: 'Stellvertretende Direktorin',
     description:
-      'Entwickelte und betrieb einen Online-Shop (OpenCart), Erstellung von Landing Pages (HTML und CSS), Aufbau eines Kundenstamms (MS Access), Kundenberatung.',
+      'Entwicklung & Betrieb eines Online-Shops (OpenCart), Erstellung von Landing Pages (HTML und CSS), Aufbau und Pflege eines Kundenstamms, Kundenberatung',
   },
   {
     id: '8',
@@ -28,7 +29,7 @@ export const workExpirience: workExpirienceType[] = [
     company: 'Belarusdance GmbH, Minsk, Belarus',
     title: 'Bürokauffrau, Organisatorin für Wettbewerbe',
     description:
-      'Arbeitete mit Websites (CMS WordPress, Joomla), Organisierte und veranstaltete gemeinsam mit dem Team die größten Tanzwettbewerbe, Tätig im Auszählungsausschuss des Wettbewerbs, Bürotätigkeit.',
+      'Erstellung und Verwaltung von Websites (WP, Joomla), Organisation und Durchführung der größten Tanzwettbewerbe, Tätigkeit im Jury-Team des Wettbewerbs, Büroarbeit',
   },
   {
     id: '9',
@@ -36,6 +37,6 @@ export const workExpirience: workExpirienceType[] = [
     company: 'Belarusdance GmbH, Minsk, Belarus',
     title: 'Tanztrainerin',
     description:
-      'Leitete Tanzgruppen und individuelle Trainings, Organisierte Tanzworkshops und -wettbewerbe, Koordinierte Teamarbeit',
+      'Leitung der Tanzgruppen und individuellen Trainings, Organisation der Tanzworkshops und -wettbewerbe, Koordination der Teamarbeit',
   },
 ];

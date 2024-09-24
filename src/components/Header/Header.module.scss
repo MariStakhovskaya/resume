@@ -52,7 +52,7 @@
       color: var(--color-black-txt);
       margin-right: .8rem;
 
-      @media (max-width: 768px) {
+      @media (max-width: 1200px) {
         display: none;
       }
     }
@@ -61,14 +61,12 @@
       font-weight: var(--font-weight-light);
       color: var(--color-black-txt);
 
-      @media (max-width: 768px) {
+      @media (max-width: 1200px) {
         display: none;
       }
     }
     
   }
-
-
 
   .language {
     font-size: 1.3rem;

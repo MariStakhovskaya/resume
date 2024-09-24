@@ -38,7 +38,7 @@ export const educations: EducationType[] = [
   {
     id: '5',
     date: '2010-2016',
-    company: 'Staatliche Pedagogische Universitat, Minsk, Belarus',
+    company: 'Staatliche Pädagogische Universität, Minsk, Belarus',
     title: 'Studium Lehramt Mathematik und Informatik',
     description: 'Abschluss: Diplom (zwischen Bachelor und Master)',
   },

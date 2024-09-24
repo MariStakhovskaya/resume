@@ -12,13 +12,9 @@ html {
         font-size: calc(100vw / 1600 * 10);
       }
 
-      // @media (max-width: 1440px) {
-      //   font-size: calc(100vw / 1440 * 10);
-      // }
-
-      // @media (max-width: 1200px) {
-      //   font-size: calc(100vw / 1024 * 10);
-      // }
+      @media (max-width: 1200px) {
+        font-size: calc(100vw / 1200 * 10);
+      }
 
     
       // @media (max-width: 1024px) {
@@ -28,10 +24,6 @@ html {
       @media (max-width: 768px) {
         font-size: calc(100vw / 768 * 10);
       }
-
-      // @media (max-width: 575px) {
-      //   font-size: calc(100vw / 575 * 10);
-      // }
     
       @media (max-width: 480px) {
         font-size: calc(100vw / 480 * 10);
@@ -40,7 +32,6 @@ html {
       @media (max-width: 360px) {
         font-size: calc(100vw / 360 * 10);
       } 
-   
   }
    
   *,
