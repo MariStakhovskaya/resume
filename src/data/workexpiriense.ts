@@ -9,34 +9,34 @@ export type workExpirienceType = {
 export const workExpirience: workExpirienceType[] = [
   {
     id: '6',
-    date: '2023-heute',
-    company: 'StartUp Lernberg, Kassel (ehrenamtlich)',
-    title: 'Frontend-Entwicklerin',
+    date: '2023-today',
+    company: 'StartUp Lernberg, Kassel',
+    title: 'Frontend Developer',
     description:
-      'Gestaltung und Implementierung von Angular-Komponenten, API-Integration, Implementierung von HTTP-Anfragen, Autorisierung und State Management (NgRx), Übernahme der technischen Leitung des FrontendTeams, einschließlich Aufgabenverteilung und Koordination der Zusammenarbeit mit Backend und Design',
+      'Design and implementation of Angular components, API integration, implementation of HTTP requests, authorization and state management (NgRx), assuming technical leadership of the frontend team, including task distribution and coordination of collaboration with backend and design',
   },
   {
     id: '7',
     date: '2015-2018',
     company: '11 Region GmbH, Minsk, Belarus',
-    title: 'Stellvertretende Direktorin',
+    title: 'Deputy Director',
     description:
-      'Entwicklung & Betrieb eines Online-Shops (OpenCart), Erstellung von Landing Pages (HTML und CSS), Aufbau und Pflege eines Kundenstamms, Kundenberatung',
+      'Development & operation of an online shop (OpenCart), creation of landing pages (HTML and CSS), building and maintaining a customer base, customer advice',
   },
   {
     id: '8',
     date: '2007-2015',
     company: 'Belarusdance GmbH, Minsk, Belarus',
-    title: 'Bürokauffrau, Organisatorin für Wettbewerbe',
+    title: 'Office clerk, organizer of competitions',
     description:
-      'Erstellung und Verwaltung von Websites (WP, Joomla), Organisation und Durchführung der größten Tanzwettbewerbe, Tätigkeit im Jury-Team des Wettbewerbs, Büroarbeit',
+      'Creation and management of websites (WP, Joomla), organization and implementation of the largest dance competitions, work in the competition jury team, office work',
   },
   {
     id: '9',
     date: '2004-2007',
     company: 'Belarusdance GmbH, Minsk, Belarus',
-    title: 'Tanztrainerin',
+    title: 'Dance trainer',
     description:
-      'Leitung der Tanzgruppen und individuellen Trainings, Organisation der Tanzworkshops und -wettbewerbe, Koordination der Teamarbeit',
+      'Management of dance groups and individual training, organization of dance workshops and competitions, coordination of teamwork',
   },
 ];

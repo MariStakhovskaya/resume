@@ -2,6 +2,26 @@
     "Education": "Education",
     "Experience": "Experience",
     "Certificates": "Certificates",
-     "Download CV": "Download CV"
-    
+     "Download CV": "Download CV",
+     "About Me" : "About Me",
+     "Resume" : "Resume",
+     "Portfolio" : "Portfolio",
+     "Contacts" : "Contacts",
+     "Maria": "Maria",
+     "Stakhovskaya": "Stakhovskaya",
+     "Dedicated frontend developer with high motivation and extensive experience in developing reactive and user-friendly applications using HTML, CSS, JavaScript and modern frameworks such as React and Angular. I work excellently both independently and in a team and find effective solutions to complex challenges.": "Dedicated frontend developer with high motivation and extensive experience in developing reactive and user-friendly applications using HTML, CSS, JavaScript and modern frameworks such as React and Angular. I work excellently both independently and in a team and find effective solutions to complex challenges.",
+     "Developer": "Developer",
+     "2023-today": "2023-today",
+     "Design and implementation of Angular components, API integration, implementation of HTTP requests, authorization and state management (NgRx), assuming technical leadership of the frontend team, including task distribution and coordination of collaboration with backend and design":"Design and implementation of Angular components, API integration, implementation of HTTP requests, authorization and state management (NgRx), assuming technical leadership of the frontend team, including task distribution and coordination of collaboration with backend and design",
+     "Development & operation of an online shop (OpenCart), creation of landing pages (HTML and CSS), building and maintaining a customer base, customer advice":"Development & operation of an online shop (OpenCart), creation of landing pages (HTML and CSS), building and maintaining a customer base, customer advice",
+     "Creation and management of websites (WP, Joomla), organization and implementation of the largest dance competitions, work in the competition jury team, office work":"Creation and management of websites (WP, Joomla), organization and implementation of the largest dance competitions, work in the competition jury team, office work",
+     "Management of dance groups and individual training, organization of dance workshops and competitions, coordination of teamwork": "Management of dance groups and individual training, organization of dance workshops and competitions, coordination of teamwork",
+     "Dance trainer":"Dance trainer",
+     "Deputy Director":"Deputy Director",
+     "Office clerk, organizer of competitions": "Office clerk, organizer of competitions",
+     "Frontend Developer": "Fronetnd Developer",
+     "Studied Angular, developed a learning project implementing the following features: Routing, REST API, NgRx, Form Validation, Authentication and Authorization":"Studied Angular, developed a learning project implementing the following features: Routing, REST API, NgRx, Form Validation, Authentication and Authorization",
+     "Developing in team of a playground/IDE for GraphQL queries. The application also includes the ability to authorize/authenticate the user through firebase to ensure that only authorized users have access to the tool. As well as localization into two languages. Implemented adaptive design and semantic layout.":"Developing in team of a playground/IDE for GraphQL queries. The application also includes the ability to authorize/authenticate the user through firebase to ensure that only authorized users have access to the tool. As well as localization into two languages. Implemented adaptive design and semantic layout.",
+     "Degree: Diploma (between Bachelor and Master)":"Degree: Diploma (between Bachelor and Master)",
+     "Studied teaching mathematics and computer science":"Studied teaching mathematics and computer science" 
   }

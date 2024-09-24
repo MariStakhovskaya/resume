@@ -53,7 +53,7 @@ export const Resume = () => {
           className={style.subTitle}
           onClick={() => setEducationOpen(!educationOpen)}
         >
-          {t(' Aus- und Weiterbildung')}{' '}
+          {t('Education')}{' '}
           {isMobile && <span>{educationOpen ? '▲' : '▼'}</span>}
         </h3>
         {(!isMobile || educationOpen) && (

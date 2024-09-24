@@ -13,15 +13,14 @@ function About() {
         <CircleImage src={myPhoto} alt="Maria" />
       </div>
       <div className={style.about__description}>
-        <h4>Frontend Entwicklerin</h4>
-        <h1>Maria Stachovski</h1>
+        <h4>Frontend {t('Developer')}</h4>
+        <h1>
+          {t('Maria')} {t('Stakhovskaya')}
+        </h1>
         <p>
-          Engagierte Frontend-Entwicklerin mit hoher Motivation und umfassender
-          Erfahrung in der Entwicklung reaktiver und benutzerfreundlicher
-          Anwendungen mittels HTML, CSS, JavaScript sowie moderner Frameworks
-          wie React und Angular. Ich arbeite sowohl selbstständig als auch im
-          Team hervorragend und finde effektive Lösungen für komplexe
-          Herausforderungen.
+          {t(
+            'Dedicated frontend developer with high motivation and extensive experience in developing reactive and user-friendly applications using HTML, CSS, JavaScript and modern frameworks such as React and Angular. I work excellently both independently and in a team and find effective solutions to complex challenges.',
+          )}
         </p>
         <div className={style.btnBlock}>
           <Button

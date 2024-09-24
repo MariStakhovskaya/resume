@@ -1,9 +1,11 @@
 import { Link } from 'react-scroll';
 import style from './Nav.module.scss';
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Nav() {
   const [activeLink, setActiveLink] = useState('section1');
+  const { t } = useTranslation();
 
   useEffect(() => {
     setActiveLink('section1');
@@ -22,7 +24,7 @@ function Nav() {
             className={`${style.nav__link} ${activeLink === 'section1' ? style.nav__item_active : ''}`}
             onSetActive={() => setActiveLink('section1')}
           >
-            About Me
+            {t('About Me')}
           </Link>
         </li>
         <li className={style.nav__item}>
@@ -32,7 +34,7 @@ function Nav() {
             duration={500}
             className={style.nav__link}
           >
-            Resume
+            {t('Resume')}
           </Link>
         </li>
 
@@ -43,7 +45,7 @@ function Nav() {
             duration={500}
             className={style.nav__link}
           >
-            Portfolio
+            {t('Portfolio')}
           </Link>
         </li>
         <li className={style.nav__item}>
@@ -53,7 +55,7 @@ function Nav() {
             duration={500}
             className={style.nav__link}
           >
-            Kontakts
+            {t('Contacts')}
           </Link>
         </li>
       </ul>

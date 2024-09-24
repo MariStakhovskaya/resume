@@ -8,6 +8,14 @@ import birds1 from '../assets/birds1.png';
 import birds2 from '../assets/birds2.png';
 import birds3 from '../assets/birds3.png';
 
+import graph from '../assets/graph.png';
+import graph1 from '../assets/graph1.png';
+import graph2 from '../assets/graph2.png';
+import graph3 from '../assets/graph3.png';
+
+import bank from '../assets/bank.png';
+import bank1 from '../assets/bank1.png';
+
 export type portfolioType = {
   id: string;
   title: string;
@@ -33,13 +41,14 @@ export const portfolio: portfolioType[] = [
   },
   {
     id: '2',
-    title: 'OnlineStore',
-    tehnology: ['Angular'],
-    firstScreen: 'https://amorem.ru/upload/iblock/d20/1.jpg',
-    screenImg: ['https://amorem.ru/upload/iblock/d20/1.jpg'],
-    deployLink: 'ggg',
-    description: 'gfdserfger',
-    autor: 'grfewq',
+    title: 'SuperBank',
+    tehnology: ['React'],
+    firstScreen: bank,
+    screenImg: [bank1],
+    deployLink: 'https://maristakhovskaya.github.io/test-loanProduct/',
+    description:
+      'Die Testaufgabe umfasst das Layout entsprechend dem Layout, die Erstellung eines Bankprodukts über ein Formular und die Bearbeitung des erstellten Produkts.',
+    autor: 'Maria Stachovski',
   },
   {
     id: '3',
@@ -54,12 +63,21 @@ export const portfolio: portfolioType[] = [
   },
   {
     id: '4',
-    title: 'OnlineStore',
-    tehnology: ['Angular'],
-    firstScreen: 'https://amorem.ru/upload/iblock/d20/1.jpg',
-    screenImg: ['https://amorem.ru/upload/iblock/d20/1.jpg'],
-    deployLink: 'ggg',
-    description: 'gfdserfger',
-    autor: 'grfewq',
+    title: 'Playground for graphQL',
+    tehnology: [
+      'React',
+      'React-router-dom',
+      'TypeScript',
+      'react-toastify',
+      'react-i18next',
+      'firebase',
+      'TypeScript',
+    ],
+    firstScreen: graph,
+    screenImg: [graph1, graph2, graph3],
+    deployLink: 'https://serene-rabanadas-22fef4.netlify.app/',
+    description:
+      'GraphiQL is a playground/IDE for graphQL queries. The application also includes the ability to authorize/authenticate the user through firebase to ensure that only authorized users have access to the tool. As well as localization into two languages (Russian and English). Implemented adaptive design and semantic layout. The application is written in React using new features. When writing, typescript, sass were used. The application was written by the GRAf MAY team as part of the 3rd stage of training in RS School React 2023 Q1.',
+    autor: 'Maria Stachovski, Yuliya Lobzha, Alesia Branovitskaya',
   },
 ];
