@@ -1,4 +1,4 @@
-import { EducationType } from '../Resume';
+import { EducationType } from '../../../data/educations';
 import style from './Works.module.scss';
 
 type EducationPropsType = {

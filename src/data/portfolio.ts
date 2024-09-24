@@ -3,6 +3,11 @@ import store1 from '../assets/store1.png';
 import store2 from '../assets/store2.png';
 import store3 from '../assets/store3.png';
 
+import birds from '../assets/birds.png';
+import birds1 from '../assets/birds1.png';
+import birds2 from '../assets/birds2.png';
+import birds3 from '../assets/birds3.png';
+
 export type portfolioType = {
   id: string;
   title: string;
@@ -38,13 +43,14 @@ export const portfolio: portfolioType[] = [
   },
   {
     id: '3',
-    title: 'OnlineStore',
-    tehnology: ['Angular'],
-    firstScreen: 'https://amorem.ru/upload/iblock/d20/1.jpg',
-    screenImg: ['https://amorem.ru/upload/iblock/d20/1.jpg'],
-    deployLink: 'ggg',
-    description: 'gfdserfger',
-    autor: 'grfewq',
+    title: 'SongBird',
+    tehnology: ['JavaScript', 'HTML', 'CSS'],
+    firstScreen: birds,
+    screenImg: [birds1, birds2, birds3],
+    deployLink: 'https://maristakhovskaya.github.io/quizbirds/index.html',
+    description:
+      'Quiz "Birdsong", written in JavaScript as part of training at rs-school. Listen to the audio and guess the bird.',
+    autor: 'Maria Stachovski',
   },
   {
     id: '4',

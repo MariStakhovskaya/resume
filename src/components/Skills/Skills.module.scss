@@ -6,8 +6,12 @@
     gap: 3rem;
     margin: 0 11rem 12rem;
 
+    @media (max-width: 1600px) {
+      margin: 0 0 12rem;
+    }
+
     @media (max-width: 768px) {
-      margin: 0 1rem 6rem;
+      margin: 0 1rem 10rem;
     }
 
     @media (max-width: 480px) {
@@ -27,6 +31,11 @@
       justify-content: center;
       align-items: center;
       border-radius:1rem ;
+
+      @media (max-width: 1600px) {
+        width: 17.8rem;
+        height: 17.8rem;
+      }
 
       @media (max-width: 768px) {
       width: 14.5rem;

@@ -133,7 +133,7 @@ export const Project = () => {
               <li className={style.item__world}>
                 <TbWorld color="#387178" />
                 <a href={project?.deployLink} target="_blank" rel="noreferrer">
-                  DuckyDuck
+                  {project?.title}
                 </a>
               </li>
             </ul>

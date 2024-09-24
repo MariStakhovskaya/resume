@@ -5,6 +5,11 @@
     gap: 3rem;
     margin: 0 11rem 12rem;  
 
+    @media (max-width: 768px) {
+        margin: 0 2rem 10rem;
+        flex-wrap: wrap;
+      }
+
     @media (max-width: 480px) {
         margin: 0;
         gap: 1rem;
@@ -67,6 +72,7 @@
     width: calc(100% - 12rem);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 1.7rem 2rem 1.7rem 2.5rem;
 
     @media (max-width: 767px) {
@@ -94,7 +100,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1.6rem;
+    // margin-top: 1.6rem;
 
     @media (max-width: 1600px) {
         margin-top: 0;

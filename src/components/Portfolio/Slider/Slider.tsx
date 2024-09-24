@@ -13,7 +13,7 @@ const Slider = ({ img }: imgType) => {
   const goToSlide = (index: number) => {
     setCurrentIndex(index);
   };
-  // Переход на следующий слайд
+
   const goToNextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % img.length);
   };
@@ -25,10 +25,10 @@ const Slider = ({ img }: imgType) => {
   };
 
   const handlers = useSwipeable({
-    onSwipedLeft: () => goToNextSlide(), // Свайп влево
-    onSwipedRight: () => goToPrevSlide(), // Свайп вправо
-    preventScrollOnSwipe: true, // Предотвращаем скроллинг при свайпе
-    trackMouse: true, // Обрабатываем также мышь для тестирования на десктопе
+    onSwipedLeft: () => goToNextSlide(),
+    onSwipedRight: () => goToPrevSlide(),
+    preventScrollOnSwipe: true,
+    trackMouse: true,
   });
 
   return (

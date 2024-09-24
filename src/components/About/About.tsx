@@ -16,12 +16,12 @@ function About() {
         <h4>Frontend Entwicklerin</h4>
         <h1>Maria Stachovski</h1>
         <p>
-          Energetische und motivierte Frontend-Entwicklerin mit umfangreicher
+          Engagierte Frontend-Entwicklerin mit hoher Motivation und umfassender
           Erfahrung in der Entwicklung reaktiver und benutzerfreundlicher
           Anwendungen mittels HTML, CSS, JavaScript sowie moderner Frameworks
-          wie React und Angular. Ich kann sowohl selbstständig als auch im Team
-          hervorragend arbeiten und finde effektiv Lösungen für komplexe
-          Probleme.
+          wie React und Angular. Ich arbeite sowohl selbstständig als auch im
+          Team hervorragend und finde effektive Lösungen für komplexe
+          Herausforderungen.
         </p>
         <div className={style.btnBlock}>
           <Button

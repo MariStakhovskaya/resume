@@ -2,17 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    // margin-bottom: 12rem;
     margin: 0 11rem 12rem;
     justify-content: center;
 
+    @media (max-width: 1600px) {
+      margin: 0 0 12rem;
+    }
+
     
     @media (max-width: 768px) {
-      margin: 0 2rem;
+      margin: 0 2rem 10rem;
     }
 
     @media (max-width: 480px) {
-        // margin: 0 2rem;
         flex-direction: column;
         flex-wrap: nowrap;
       }

@@ -24,7 +24,6 @@ function Nav() {
           >
             About Me
           </Link>
-          {/* </a> */}
         </li>
         <li className={style.nav__item}>
           <Link
