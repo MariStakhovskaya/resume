@@ -7,6 +7,7 @@ import { portfolio } from '../../../data/portfolio';
 import Slider from '../Slider/Slider';
 
 import style from './Project.module.scss';
+import { useEffect } from 'react';
 
 export const Project = () => {
   const { id } = useParams();
@@ -25,6 +26,10 @@ export const Project = () => {
       navigate(`/portfolio/${+index - 1}`);
     }
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   return (
     <div className={style.project}>

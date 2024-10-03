@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 
 import style from './Slider.module.scss';
@@ -30,6 +30,10 @@ const Slider = ({ img }: imgType) => {
     preventScrollOnSwipe: true,
     trackMouse: true,
   });
+
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [img]);
 
   return (
     <div {...handlers} className={style.slider}>
